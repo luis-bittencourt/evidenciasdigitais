@@ -1,0 +1,125 @@
+/*
+			RESET
+---------------------------------------------------*/
+*{
+	margin:0px;
+	padding:0px;
+	border: none;
+	
+}
+
+
+/*
+			VARIÁVEIS
+---------------------------------------------------*/
+:root{
+	--cor-azul-forte:#000080;
+	--cor-azul-fraco:#5155A6;
+	--cor-vermelho:#A60303;
+	--cor-amarelo:#D99923;
+	--cor-branca:#ffffff;
+	--cor-preta:#000000;
+}
+
+
+/*
+			CONFIG GERAL
+---------------------------------------------------*/
+
+body{
+	font-size:18px;
+	font-family:open sans;
+
+}
+
+h1{
+	font-size: 2em;
+
+}
+h2{
+	font-size:1.5em;
+
+}
+p, spam{
+	font-size:0.8em;
+
+}
+
+.link{
+	cursos:pointer;
+	color:#9C9C9C;
+	text-decoration:none;
+}
+
+.link:hover {
+	color:#ff0000 !important;
+	text-decoration:none;
+	
+} 
+
+.sombrear{
+	text-shadow: black 0.2em 0.2em 0.3em;
+
+}
+
+.text-faq{
+	color: #9C9C9C;
+	text-align:justify;
+
+}
+
+
+/*VOLTA PARA CIMA
+---------------------------------------------------*/
+.fa-angle-up{
+	font-size:60px;
+	color:#ff0000;
+
+}
+
+.box{
+	background-color:#363636;
+	border-radius:100px;
+	position:fixed;
+	right:30px;
+	bottom:40px;
+	z-index:1000;
+	cursor:pointer;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */	
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+.box:hover{
+	opacity: 8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+
+
+.bg-light{background-color:var(--cor-azul-forte)!important;} 
+
+
+
+
+
+
+/*FOOTER
+---------------------------------------------------*/
+
+
+.rede_social{
+	font-size:1.8em;
+
+}
+
+footer{
+	background-color:var(--cor-azul-forte)!important;;
+
+}
+

@@ -1,0 +1,183 @@
+*:before,
+*:after{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.menu{
+	background:#cccccc;
+	border-radius:50%;
+	width:60px;
+	height:60px;
+	margin-left:20px;
+	position:fixed;
+	top:5px;
+	z-index:100;
+}
+.menu:hover{
+	cursor:pointer;
+	
+}
+
+.hamburger{
+	position: relative;
+	display:block;
+	background: #000000;
+	width: 30px;
+	height: 3px;
+	top:29px;
+	left:15px;
+	transition: .5s ease-in-out;
+	
+}
+.hamburger:before,
+.hamburger:after{
+	background: #000000;
+	content: ' ';
+	display:block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: .5s ease-in-out;
+}
+.hamburger:before{	
+	top: -10px;
+
+}
+.hamburger:after{	
+	bottom: -10px;
+
+}
+input{
+	display:none;
+	
+}
+input:checked ~ label .hamburger{
+	 transform: rotate(45deg);
+	
+}
+input:checked ~ label .hamburger:before{
+	 transform: rotate(90deg);
+	 top:0;
+	
+}
+input:checked ~ label .hamburger:after{
+	 transform: rotate(90deg);
+	 bottom:0;
+	
+}
+
+@media( max-width: 800px){
+
+	.menu{
+		width:40px;
+		height:40px;
+		margin-left:10px;
+		
+	}
+	.hamburger{
+		width: 20px;
+		height: 3px;
+		top:19px;
+		left:10px;
+			
+	}
+
+
+}
+
+
+/*CONFIGURAÇÕES DO MENU SUPERIOR (NAVBAR)*/
+
+nav{
+
+	background-color: rgba(16, 16, 16, .5);
+	//width:250px;
+	width:45vw;
+	//height:450px;
+	height:100vh;
+	position:fixed;
+	//left:-450px;
+	left:-100vh;
+	z-index:10;
+	transition: all .5s;
+	//top:44px;
+	top:0px;
+
+}
+
+input[ type="checkbox"]:checked ~ nav{
+
+	transform: translatex(100vh);
+	
+}
+
+nav ul{
+	
+	top:0%;
+	position:relative;
+	width:100%;
+	padding-left:70px;
+	padding-top:70px;
+
+}
+
+nav a{
+
+	display:block;
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	//padding-left:60px;
+
+}
+
+nav a:hover{
+
+	//background-color: rgb(176, 224, 230);
+	background-color:#b3995d;
+	color:white;
+	text-decoration:none;
+	font-weight:700;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */	
+	
+
+}
+
+@media (max-width: 800px){
+	label{
+
+		font-size:25px;
+		
+	}
+	nav{
+	
+		width:50vw;
+		//height:250px;
+		left:-100vh;
+	
+	}
+	
+	nav a{
+	
+		font-size: 0.7em;
+		padding: 10px 3px;
+	
+	}
+	
+	nav ul{
+		
+		padding-left:30px;
+	}
+	
+	input[ type="checkbox"]:checked ~ nav{
+
+		transform: translatex(100vh);
+		
+	}
+
+
+
+}

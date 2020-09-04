@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css/*
+Disallow: /img/*
+Disallow: /js/*
+Disallow: /produtos/*
+Disallow: /adm/*
+Sitemap: http://www.evidenciasdigitais.com.br/sitemap/sitemap.xml
