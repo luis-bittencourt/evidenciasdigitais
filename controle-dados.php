@@ -45,9 +45,9 @@ if( $vAction == "carrega_apresentacao"){
 	$dados = "<h3><i class='fas fa-book-reader'></i> ORIENTAÇÕES</h3>
 	
 		<ul>
-			<li><a class='link link-help' href='./pages/pgs.php?act=preservacao'>Preservação de evidências</a></li>
-			<li><a class='link link-help' href='./pages/pgs.php?act=especializada'>Delegacias especializadas</a></li>
-			<li><a class='link link-help' href='./pages/pgs.php?act=orientacoes'>Outras orientações</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=preservacao'>Preservação de evidências</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=especializada'>Delegacias especializadas</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=orientacoes'>Outras orientações</a></li>
 		</ul>
 	
 	";
@@ -59,9 +59,9 @@ if( $vAction == "carrega_apresentacao"){
 	$dados = "<h3><i class='fas fa-burn'></i> FERRAMENTAS</h3>
 	
 		<ul>
-			<li><a class='link link-help' href='./pages/pgs.php?act=manuais'>Manuais</a></li>
-			<li><a class='link link-help' href='./pages/pgs.php?act=ferramentas'>Ferramentas</a></li>
-			<li><a class='link link-help' href='./pages/pgs.php?act=legislacoes'>Legislações</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=manuais'>Manuais</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=ferramentas'>Ferramentas</a></li>
+			<li><a class='link' href='./pages/pgs.php?act=legislacoes'>Legislações</a></li>
 		</ul>
 	
 	";

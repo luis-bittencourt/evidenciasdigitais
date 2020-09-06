@@ -174,7 +174,7 @@
 		<div id="mensagem-apoio">
 	
 			<?php echo utf8_encode("<h3>PARTICIPE DE NOSSA PESQUISA: <spam style=''> NOS AJUDE A ENTENDER OS RISCOS OCULTOS NA INTERNET!<spam></h3>
-			                        <center><a href='//forms.gle/sdrhNp3mENy1nBX37' target='__blank' type='button' class='btn btn-link link link-help'><i>participe você também!</i></a></center>"); ?>
+			                        <center><a href='//forms.gle/sdrhNp3mENy1nBX37' target='__blank' type='button' class='btn btn-link link'><i>participe você também!</i></a></center>"); ?>
 	
 		</div>
 		

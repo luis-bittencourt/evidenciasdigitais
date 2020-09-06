@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="FAQ, sistema de perguntas frequentes.">
     <meta name="author" content="Luis Fernando da Silva Bittencourt https://www.lfbittencourt.com.br">
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="../img/logo.png">
 	
 	<?php 
 		include("../global/global.php");
