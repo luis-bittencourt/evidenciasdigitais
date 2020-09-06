@@ -19,9 +19,10 @@ $(document).ready(function(){
 		
 			$.get('controle-dados.php?action=carrega_aviso_cookies',
 				function(data){
-						
+					
+					//maskOnTop(data);				
 					$("#div_aviso_cookie").html(data);
-						$("#botao_cookie").click(function(){
+						$("#aceitar_cookie").click(function(){
 							
 							$("#div_aviso_cookie").css("display","none");
 							document.cookie="acesso=visitante";
