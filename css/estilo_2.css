@@ -1281,26 +1281,29 @@ table tbody{
 #div_aviso_cookie{
 	width:100%;
 	height:auto;
-	top:85%;
-	background-color:var(--cor-branca);
+	top:65%;
+	background-color:#cccccc;
 	z-index:999;
 	position:fixed;
+	//display: flex;
+	//flex-direction: row;
+	//flex-wrap: wrap;
+	//justify-content: center;
 	
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+	border:1px solid #000000;
 	
 }
 
 #div_aviso_cookie #texto_cookie{
-	width:80%;
+	width:100%;
 	font-size:0.7em;
 	padding:5px;
+	margin-left:0px;
+	
 			
 }
 #div_aviso_cookie #texto_cookie p{ text-align:justify; }
-#div_aviso_cookie #botao_cookie{ padding-top:10px;padding-left:10px;}
+#div_aviso_cookie #botao_cookie{ //padding-top:10px;//padding-left:10px;}
 
 
 @media (max-width:650px){
@@ -1309,11 +1312,12 @@ table tbody{
 		font-size:0.5em;
 		
 	}
-	#div_aviso_cookie #botao_cookie{
+	#aceitar_cookie{font-size:0.9em; margin-top:0px;}
+	/*#div_aviso_cookie #botao_cookie{
 		padding:2px;
 		font-size:0.4em !important;
 		
-	}
+	}*/
 	
 	
 	

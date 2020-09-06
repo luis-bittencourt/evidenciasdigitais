@@ -814,10 +814,14 @@ if( $vAction == "carrega_apresentacao"){
 	
 }elseif( $vAction == "carrega_aviso_cookies"){
 	
-	$data = "<p>Nós usamos <b>cookies</b> e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, personalizar publicidade e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento. Informamos ainda que atualizamos nossa Política de Privacidade. Conheça nosso <a href='./pages/pgs.php?action=termo_privacidade'>Portal da Privacidade</a> e veja a nossa nova Política.</p>";
 	$btn  = "<button id='aceitar_cookie' class='btn btn-success' type='button'>ACEITAR</buton>";
+	//$btn  = "<button id='aceitar_cookie' class='btn btn-link link' type='button'><i>ACEITAR</i></buton>";
+	$data = "<p>Nós usamos <b>cookies</b> e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, personalizar publicidade e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento. Informamos ainda que atualizamos nossa Política de Privacidade. Conheça nosso <a href='./pages/pgs.php?action=termo_privacidade'>Portal da Privacidade</a> e veja a nossa nova Política.</p>	
+			 <center>$btn</center> ";
 	
-	$divs = "<div id='texto_cookie'>$data</div> <div id='botao_cookie'>$btn</div>";
+	
+	//$divs = "<div id='texto_cookie'>$data</div> <div id='botao_cookie'>$btn</div>";
+	$divs = "<div id='texto_cookie'>$data</div>";
 	
 	$vReturnData = "$divs";	
 	
