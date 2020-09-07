@@ -136,6 +136,13 @@ if( $vAction == "carrega_apresentacao"){
 					  <td>Altera a Lei no 8.069, de 13 de julho de 1990 - Estatuto da Criança e do Adolescente, para aprimorar o combate à produção, venda e distribuição de pornografia infantil, bem como criminalizar a aquisição e a posse de tal material e outras condutas relacionadas à pedofilia na internet.</td>  
 					</tr>
 					
+					<!-- 12.527/2011 -->
+					<tr>
+					  <th scope='row'><a href='//www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Lei/L12527.htm' target='__blank'>12.527/2011 - Lei de Acesso a Informação</a></th>
+					  <td>18/11/2011</td>
+					  <td>Regula o acesso a informações previsto no inciso XXXIII do art. 5º , no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; altera a Lei nº 8.112, de 11 de dezembro de 1990; revoga a Lei nº 11.111, de 5 de maio de 2005, e dispositivos da Lei nº 8.159, de 8 de janeiro de 1991; e dá outras providências.</td>  
+					</tr>
+					
 					<!-- 12.735/2012 -->
 					<tr>
 					  <th scope='row'><a href='//www.planalto.gov.br/ccivil_03/_Ato2011-2014/2012/Lei/L12735.htm' target='__blank'>12.735/2012 - lei Azeredo </a></th>
