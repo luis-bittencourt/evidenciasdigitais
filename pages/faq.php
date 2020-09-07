@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="FAQ, sistema de perguntas frequentes.">
     <meta name="author" content="Luis Fernando da Silva Bittencourt https://www.lfbittencourt.com.br">
-    <link rel="icon" href="../img/logo.png">
+    <link rel="icon" href="img/logo.png">
 	
 	<?php 
 		include("../global/global.php");
@@ -44,7 +44,7 @@
   
 	 
 	 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" >
-		 <a class="navbar-brand" href="./"><img src="../img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
+		 <a class="navbar-brand" href="../"><img src="../img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
 			<span style='font-size:20px; color:#FFFFFF;'> FAQ - Perguntas Frequentes </span>
 		 </a>
 		  
